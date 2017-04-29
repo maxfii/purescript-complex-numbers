@@ -86,4 +86,5 @@ instance complexTraversable :: Traversable Complex where
 instance complexShow :: Show a => Show (Complex a) where
   show (Complex r i) = show r <> " + " <> show i <> "i "
 
-csqrt 
+-- Todo: sin, cos, log, diff etc
+{--csqrt --}
