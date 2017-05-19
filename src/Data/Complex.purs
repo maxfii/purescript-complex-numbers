@@ -46,7 +46,7 @@ normalize z = l ^* z where l = one / abs z
 angle :: Radians -> Complex Number
 angle θ = Complex (cos θ) (sin θ)
 
-infix 3 scale as ^*
+infixr 7 scale as ^*
 
 ap :: ∀ a b. Field a => (a -> a -> b) -> Complex a -> b
 ap f (Complex r i) = f r i
